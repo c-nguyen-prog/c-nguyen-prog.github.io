@@ -33,6 +33,7 @@ body {
 
 .top__overlay {
     background-color: #000;
+    min-width: inherit;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -44,7 +45,7 @@ body {
 }
 
 .top__container {
-    padding-top: 40vh;
+    padding-top: 35vh;
     text-align: center;
     position: relative;
     z-index: 4;
@@ -72,4 +73,28 @@ body {
     text-align: center;
     font-size: 28px;
     z-index: 6;
+}
+
+
+
+@media (max-width: 767px) {
+    .top:before {
+        bottom: 100px;
+        right: 20px;
+        top: 20px;
+    }
+
+}
+
+@media only screen and (orientation: portrait) and (max-width: 767px)  {
+    .top {
+        -webkit-background-size: auto 150%;
+        background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px)  {
+    .top {
+        -webkit-background-size: 150% auto;
+        background-attachment: scroll;
+    }
 }
