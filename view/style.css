@@ -1,0 +1,75 @@
+html, body {
+    color: #434242;
+    font-family: "Open Sans", sans-serif !important;
+    height: 100%;
+}
+
+body {
+    background: #F3EFE0;
+    font-size: 15px;
+    line-height: 1.64;
+}
+
+.top {
+    background: no-repeat center fixed url(images/DSC03087.JPG);
+
+    min-height: 100%;
+    min-width: 400px;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/DSC03087.JPG', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/DSC03087.JPG',sizingMethod=scale);
+
+}
+
+.top__overlay {
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+
+.top__container {
+    padding-top: 40vh;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+}
+
+.top__container > * {
+    color: #ffffff;
+    text-align: center;
+}
+
+.top__container h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffffff;
+    border-bottom-color:rgba(255,255,255,0.35);
+    display: inline-block;
+    z-index: 5;
+}
+
+
+.top__subtitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    z-index: 6;
+}
