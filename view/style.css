@@ -1,6 +1,6 @@
 html, body {
     color: #434242;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     height: 100%;
 }
 
@@ -53,6 +53,7 @@ body {
 .top__container > * {
     color: #ffffff;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top__container h1 {
@@ -69,7 +70,6 @@ body {
 
 .top__subtitle {
     text-align: center;
-    color: #ffffff;
     font-size: 28px;
     z-index: 6;
 }
