@@ -75,6 +75,20 @@ body {
     z-index: 6;
 }
 
+.profile .row > div {
+        margin-bottom: 20px;
+}
+
+.experience__exp {
+    margin-bottom:20px;
+}
+
+.experience__exp p > strong {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+
 
 
 @media (max-width: 767px) {
