@@ -79,6 +79,10 @@ body {
         margin-bottom: 20px;
 }
 
+.experience__container {
+    padding: 40px 180px;
+}
+
 .experience__exp {
     margin-bottom:20px;
 }
