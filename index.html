@@ -25,21 +25,44 @@
             </p>
         </div>
         <div class="top__overlay"></div>
+        <a href="#profile" class="top__scroll">
+            <span class="gylphicon glyphicon-chevron-down"></span>
+        </a>
     </div>
 
     <!--   TODO: navigation tool    -->
 
+    <nav class="navbar navbar-default" id="navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-def-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-def-collapse">
+            <ul class="nav navbar-nav">
+                <li class"actieve"><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="profile">
-        <div class="profile__container">
+        <div id ="profile" class="profile__container">
             <h2>Profile</h2>
             <hr/>
             <div class="row">
                 <div class="col-md-4">
                     <h3>About me</h3>
                     <p>
-                        I'm current studying Computer Science, I focus myself on mobile
-                        - android in particular and web development. I love learning
-                        about new things. As the saying goes: "Knowledge is power".
+                        I'm a Computer Science major. I  currently focus myself on mobile
+                        - android in particular and web development, especially the new
+                        technologies like ES6 and React Native. I love learning about new
+                        things. As the saying goes: "Knowledge is power".
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
@@ -61,9 +84,10 @@
     </div>
 
     <div class="experience">
-        <div class="exeperience__container">
+        <div id="experience" class="exeperience__container">
             <h2>Experiences</h2>
             <hr/>
+
             <h3>Education</h3>
             <div class="experience__exp">
                 <div class="col-md-4">
@@ -72,13 +96,17 @@
                         Sep 2012 - Mar 2016
                     </p>
                 </div>
+                <div class="col-md-4">
+                    <h4></h4>
+                    <p></p>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="skills">
-        <div class="skills__container">
-            <h2>Abilities</h2>
+        <div id="skills" class="skills__container">
+            <h2>Skills</h2>
             <hr/>
 
             <h3>Technologies</h3>
