@@ -71,6 +71,7 @@ body {
 
 .top__subtitle {
     text-align: center;
+    font-weight: lighter;
     font-size: 28px;
     z-index: 6;
 }
