@@ -75,7 +75,7 @@ body {
     font-size: 28px;
     z-index: 6;
 }
-/*
+
 .navbar {
     border: 0px;
     background-color: #222222;
@@ -85,7 +85,7 @@ body {
     width: 110px;
     z-index: 999;
 }
-
+/*
 .nav-bar .navbar-collapse {
     padding: 0px;
     max-height: none;
