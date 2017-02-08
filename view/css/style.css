@@ -11,7 +11,7 @@ body {
 }
 
 .top {
-    background: no-repeat center fixed url(images/DSC03087.JPG);
+    background: no-repeat center fixed url(view/images/DSC03087.JPG);
 
     min-height: 100%;
     min-width: 200px;
@@ -26,8 +26,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/DSC03087.JPG', sizingMethod='scale')";
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/DSC03087.JPG',sizingMethod=scale);
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='view/images/DSC03087.JPG', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='view/images/DSC03087.JPG',sizingMethod=scale);
 
 }
 
@@ -77,12 +77,15 @@ body {
 }
 
 .navbar {
+    border: 0px;
     background-color: #222222;
     position: absolute;
     z-index: 999;
 }
 
 .navbar-toggler {
+    float: right;
+    left: 100%;
     width: 40px;
 }
 
@@ -96,13 +99,13 @@ body {
     margin: 0px;
 }
 
-.navbar .nav > li {
+.navbar .navbar-nav > li {
     display: block;
     float: none;
     height: 80px;
 }
 
-.navbar .nav > li a {
+.navbar .navbar-nav > li a {
     display: block;
     height: 80px;
     text-align: center;
@@ -114,8 +117,6 @@ body {
 .navbar .nav > li a:hover, .navbar .nav > li a:focus {
     color: #999999;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #22A39F; color: #FFFFFF; }
-
 /*
 .nav-bar .navbar-collapse {
     padding: 0px;
