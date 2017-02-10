@@ -10,9 +10,78 @@ body {
     line-height: 1.64;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+}
+h1,h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+h2,h3 {
+    font-weight: 300;
+    color: #22A39F;
+}
+h2 {
+    font-size: 54px;
+    text-align: center;
+}
+h3 {
+    font-size: 28px;
+}
+
+p.lead {
+    text-align: center;
+    color: #727878;
+}
+p.lead a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+p.lead a:hover {
+    text-decoration: none;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+hr {
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2; filter:alpha(opacity=20);
+}
+
+.project-referal {
+    margin-top: 40px;
+}
+.project-referal p {
+    font-style: italic;
+    color: #999999; }
+
+.btn-primary {
+    background-color: #22A39F;
+    border-color: #1c8784;
+}
+.btn-primary:hover {
+    background-color: #1c8784;
+    border-color: #1c8784;
+}
+
+.icon {
+    display: inline-block;
+    background: url(images/sm_icon_sprite.png) no-repeat;
+    height: 32px; width: 32px;
+}
+.icon.icon-twitter {
+    background-position: 0px 0px;
+}
+.icon.icon-email {
+    background-position: 0px -96px;
+}
+
 .top {
     background: no-repeat center fixed url(images/DSC03087.JPG);
-
     min-height: 100%;
     min-width: 200px;
 
@@ -76,7 +145,8 @@ body {
     z-index: 6;
 }
 
-.navbar {
+.navbar .navbar-default {
+    padding-bottom: 20px;
     background-color: #222222;
     position: absolute;
     z-index: 999;
@@ -93,7 +163,6 @@ body {
 
 .navbar-nav {
     float: none;
-    margin: 0px;
 }
 
 .navbar .nav > li {
@@ -114,7 +183,13 @@ body {
 .navbar .nav > li a:hover, .navbar .nav > li a:focus {
     color: #999999;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #22A39F; color: #FFFFFF; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: #22A39F;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background: #222222; }
 
 /*
 .nav-bar .navbar-collapse {
@@ -169,35 +244,49 @@ body {
     padding: 40px 180px;
 }
 
-@media (max-width: 767px) {
-    .top:before {
-        bottom: 100px;
-        right: 20px;
-        top: 20px;
+@media only screen and (max-width: 991px) {
+    .top {
+        -webkit-background-size: auto 120%;
+        background-attachment: scroll;
     }
+
+    .navbar-default {
+        min-height: 55px;
+    }
+    .navbar .nav > li {
+        margin-top: 40px;
+        height: 60px;
+    }
+}
+@media (max-width: 767px) {
+    .top {
+        -webkit-background-size: auto 130%;
+        background-attachment: scroll;
+    }
+
+    .navbar  {
+        min-height: 55px;
+        left: 0px;
+        width: 100%;
+    }
+    .navbar .nav > li {
+        margin-top: 40px;
+        height: 60px;
+    }
+
+    .navbar .nav > li a {
+        height: 60px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 600;
+        color: #FFFFFF; }
 
 }
 @media only screen and (max-width: 320px) {
     .top {
         -webkit-background-size: 150% auto;
     }
-}
-
-
-@media only screen and (orientation: portrait) and (max-width: 767px)  {
-    .top {
-        -webkit-background-size: auto 150%;
-        background-attachment: scroll;
-    }
-}
-@media only screen and (orientation: landscape) and (max-width: 767px)  {
-    .top {
-        -webkit-background-size: 150% auto;
-        background-attachment: scroll;
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-
+    .navbar .nav > li {
+        margin-top: 40px;
+        height: 40px; }
 }

@@ -1,3 +1,11 @@
+var lnStickyNavigation;
+
+$(document).ready(function()
+{
+    applyNavigation();
+    applyResize();
+});
+
 function applyNavigation()
 {
     applyClickEvent();
