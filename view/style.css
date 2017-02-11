@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background: #F3EFE0;
+    background: lightgoldenrodyellow;
     font-size: 15px;
     line-height: 1.64;
 }
@@ -145,10 +145,13 @@ hr {
     z-index: 6;
 }
 
-.navbar .navbar-default {
-    padding-bottom: 20px;
+.navbar {
+    text-align: left;
+    min-height: 55px;
+    left: 80%;
     background-color: #222222;
-    position: absolute;
+    position: fixed;
+    top: 60px;
     z-index: 999;
 }
 
@@ -161,11 +164,16 @@ hr {
     max-height: none;
 }
 
-.navbar-nav {
+.navbar navbar-nav {
     float: none;
 }
 
+.navbar-nav {
+    margin: 0px;
+}
+
 .navbar .nav > li {
+    text-align: left;
     display: block;
     float: none;
     height: 80px;
@@ -190,6 +198,8 @@ hr {
 
 .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
     background: #222222; }
+
+.fixed .navbar  { position: fixed; top: 60px; }
 
 /*
 .nav-bar .navbar-collapse {

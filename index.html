@@ -7,16 +7,13 @@
         <title>Chi Nguyen - A Web Resume</title>
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
-        <link href="bootstrap/css/bootstrap-grid.css" rel="stylesheet"/>
-        <link href="bootstrap/css/bootstrap-flex.css" rel="stylesheet"/>
-        <link href="bootstrap/css/bootstrap-reboot.css" rel="stylesheet"/>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="view/style.css" rel="stylesheet"/>
 
         <script type="text/javascript" id="inspecletjs">
             window.__insp = window.__insp || [];
-            __insp.push['wid', 92785244]);
-            (function) {
+            __insp.push(['wid', 92785244]);
+            (function() {
                 function __ldinsp() {
                     var insp = document.createElement('script');
                     insp.type = 'text/javascript';
@@ -55,11 +52,13 @@
     <!--   TODO: navigation tool    -->
 
 
-    <nav class="navbar navbar-default navbar-toggleable-md navbar-dark bg-inverse">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+    <nav class="navbar navbar-default navbar-dark bg-inverse" id="navbar-example" role="navigation">
+        <div class="navbar-header">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
-        </button>
+              </button>
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav">
@@ -70,7 +69,7 @@
         </div>
     </nav>
 
-    <!--
+
     <div class="profile">
         <div id ="profile" class="container">
             <h2>Profile</h2>
@@ -149,12 +148,9 @@
         </div>
     </div>
 
-    -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/view/script.js"></script>
-    <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="view/script.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     </body>
