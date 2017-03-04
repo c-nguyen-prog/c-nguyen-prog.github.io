@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background: lightgoldenrodyellow;
+    background: #d5d5d5;
     font-size: 15px;
     line-height: 1.64;
 }
@@ -20,7 +20,7 @@ h1,h4 {
 }
 h2,h3 {
     font-weight: 300;
-    color: #22A39F;
+    color: #222222;
 }
 h2 {
     font-size: 54px;
@@ -201,7 +201,7 @@ hr {
 
 .fixed .navbar  { position: fixed; top: 60px; }
 
-/*
+
 .nav-bar .navbar-collapse {
     padding: 0px;
     max-height: none;
@@ -243,7 +243,7 @@ hr {
     background: #222222;
 }
 
-*/
+
 
 .profile .row > div {
         margin-bottom: 20px;

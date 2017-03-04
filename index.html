@@ -52,19 +52,23 @@
     <!--   TODO: navigation tool    -->
 
 
-    <nav class="navbar navbar-default navbar-dark bg-inverse" id="navbar-example" role="navigation">
+    <nav class="navbar navbar-default" id="navbar-example" role="navigation">
         <div class="navbar-header">
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              <button class="navbar-toggle" type="button" data-toggle="collapse"
+                data-target=".navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
               </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse navbarSupportedContent">
             <ul class="nav navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="#profile">Profile</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="active"><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
             </ul>
         </div>
     </nav>
@@ -149,9 +153,10 @@
     </div>
 
 
-    <script type="text/javascript" src="view/script.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!--<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="view/script.js"></script>
 
     </body>
 </html>
