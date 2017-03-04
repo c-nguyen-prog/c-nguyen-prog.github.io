@@ -121,7 +121,7 @@ function applyResize()
     {
         lnStickyNavigation = $('.scroll-down').offset().top + 20;
 
-        $('.jumbotron').css({ height: ($(window).height()) +'px' });
+        $('.top').css({ height: ($(window).height()) +'px' });
     });
 }
 
