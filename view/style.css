@@ -203,10 +203,19 @@ hr {
 }
 
 
-
+.profile {
+    background: #ffffff;
+}
 
 .profile .row > div {
         margin-bottom: 20px;
+}
+
+.experience {
+}
+
+.skills {
+    background: #ffffff;
 }
 
 .container {
@@ -218,10 +227,27 @@ hr {
 
 }
 @media (max-width: 767px) {
+    .top:before {
+        bottom: 100px;
+        left: 20px;
+        right: 20px;
+        top: 20px;
+    }
+    .top .container { top: 20%; padding-top: 0px; }
+    .top .scroll-down { width: 100%; right: 0px; }
+
     .navbar  { left: 0px; width: 100%; top: 0px; }
     .navbar .nav > li { height: 60px; }
     .navbar .nav > li a { height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
 
+    .fixed .navbar { top: 0px; }
+
+    .container { padding: 60px 20px; min-width: 280px; }
+
+    #profile .row * { text-align: center; }
+
+    #experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
+    #experiences .experience .experience-details .seperator { display: none; }
 
 }
 @media only screen and (max-width: 320px) {
