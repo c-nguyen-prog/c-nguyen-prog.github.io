@@ -80,9 +80,20 @@ hr {
     border-color: #1c8784;
 }
 
-.icon {
+.icon-mail {
     display: inline-block;
     background: url(images/gmail-32.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: -8px;
+}
+
+.icon-twitter {
+    display: inline-block;
+    background: url(images/twitter-32.png) no-repeat;
     height: 32px;
     width: 32px;
     float: left;
