@@ -81,10 +81,10 @@ hr {
 }
 
 .icon {
-    display: inline-block;
-    background: url(images/sm_icon_sprite.png) no-repeat;
-    height: 32px;
-    width: 32px;
+    display: block;
+    background: url(images/gmail.png) no-repeat;
+    min-height: 32px;
+    min-width: 32px;
 }
 
 .icon.icon-twitter {
@@ -234,8 +234,9 @@ hr {
 
 .container {
     max-width: 1280px;
-    padding: 40px 180px;
+    padding: 40px 140px;
 }
+
 
 @media only screen and (max-width: 991px) {
 
