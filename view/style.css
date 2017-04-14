@@ -81,19 +81,15 @@ hr {
 }
 
 .icon {
-    display: block;
-    background: url(images/gmail.png) no-repeat;
-    min-height: 32px;
-    min-width: 32px;
+    display: inline-block;
+    background: url(images/gmail-32.png) no-repeat;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-right: 15px;
+    margin-top: -8px;
 }
 
-.icon.icon-twitter {
-    background-position: 0px 0px;
-}
-
-.icon.icon-email {
-    background-position: 0px -96px;
-}
 
 .top {
     background: no-repeat center fixed url(images/DSC03087.JPG);
@@ -223,6 +219,12 @@ hr {
 
 .profile .row > div {
     margin-bottom: 20px;
+}
+
+.profile .row > div img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
 .experience {
