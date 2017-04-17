@@ -9,10 +9,10 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="view/style.css" rel="stylesheet"/>
-
+<!--
         <script type="text/javascript" id="inspecletjs">
             window.__insp = window.__insp || [];
-            __insp.push(['wid', 92785244]);
+            __insp.push(['wid', 785716252]);
             (function() {
                 function __ldinsp() {
                     var insp = document.createElement('script');
@@ -30,7 +30,28 @@
                 }
             })();
         </script>
-
+-->
+        <!-- Begin Inspectlet Embed Code -->
+        <script type="text/javascript" id="inspectletjs">
+            window.__insp = window.__insp || [];
+            __insp.push(['wid', 785716252]);
+            (function () {
+                function ldinsp() {
+                    if (typeof window.__inspld != "undefined") return;
+                    window.__inspld = 1;
+                    var insp = document.createElement('script');
+                    insp.type = 'text/javascript';
+                    insp.async = true;
+                    insp.id = "inspsync";
+                    insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js';
+                    var x = document.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(insp, x);
+                };
+                setTimeout(ldinsp, 500);
+                document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+            })();
+        </script>
+        <!-- End Inspectlet Embed Code -->
     </head>
 
     <body data-spy="scroll" data-target="#navbar-example">
@@ -114,7 +135,7 @@
                     <div class="col-md-4">
                         <h4>Leibniz University Hannover</h4>
                         <p>
-                            Oct 2012 - Mar 2017
+                            Oct 2012 - Sep 2016
                         </p>
                     </div>
                     <div class="col-md-8">
@@ -122,8 +143,10 @@
                             <strong>Informatik</strong>
                             <p>
                                 During the time in Hannover, I learned a lot about programming in general such as MVC, UML, C, Java, VHDL and more.
-                                I did some notable projects, for instance, Conway's Game of Life java simulation, working with JaDiv - (to be finished)
+                                Some notable projects are, for instance, Conway's Game of Life java simulation, JaDiV - Reeb graph algorithm for bone recognition.
+                                When the Android development became bigger and bigger, I decided to give it a try and it really did pique my interest.
                             </p>
+                            <br>
                         </p>
                     </div>
                 </div>
@@ -138,8 +161,8 @@
                             <strong>Informatik - Mobile Anwendung</strong>
 
                             <p>
-                                
-                                tbf
+                                Recently started the course in the Frankfurt University of Applied Sciences, in order to pursue my goal of becoming an Android developer.
+                                I also learn ES6/React Native in my free time.
                             </p>
                         </p>
                     </div>
@@ -153,20 +176,26 @@
                     <div class="col-md-4">
                         <h4>Leibniz University Hannover</h4>
                         <p>Oct 2013 - Feb 2016</p>
-                        <br><br>
-                        <p>May 2013 - Dec 2016</p>
                     </div>
                     <div class="col-md-8">
 
                         <p>
                             <strong>Programming Tutor</strong>
-                            <p>
-                            As a programming tutor, I taught the students how to clean-code, to use efficient
+                            <p>As a programming tutor, I taught the students how to clean-code, to use efficient
                             algorithms in C and Java. This helped me a lot to be quick in understanding
-                            the code, also to be a better presenter.
-                            </p>
+                            the code, also to be a better presenter.</p>
+                            <br>
                         </p>
 
+
+                    </div>
+                </div>
+                <div class="career row">
+                    <div class="col-md-4">
+                        <p></p>
+                        <p>May 2013 - Dec 2016</p>
+                    </div>
+                    <div class="col-md-8">
                         <p>
                             <strong>Assistant at International Office</strong>
                             <p>
@@ -194,16 +223,17 @@
                         <li>CSS3</li>
                         <li>HTML5</li>
                         <li>Bootstrap</li>
-                        <li>Java</li>
+                        <li>Responsive Design</li>
                         <li>Javascript</li>
 
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="no-bullets">
+                        <li>C</li>
                         <li>BEM Methodology</li>
                         <li>Agile Methodology</li>
-                        <li>Responsive Design</li>
+                        <li>Java</li>
                         <li>React</li>
                         <li>React Native</li>
                     </ul>
