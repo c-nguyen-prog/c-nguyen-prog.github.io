@@ -248,6 +248,13 @@ hr {
     background: #ffffff;
 }
 
+.portfolio .container{
+    text-align: center;
+}
+.contact {
+    background: #ffffff;
+}
+
 .container {
     max-width: 1280px;
     padding: 40px 140px;
