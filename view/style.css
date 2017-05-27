@@ -85,9 +85,9 @@ hr {
 
 .icon-multitouch {
     display: inline-block;
-    background: url(images/ic_launcher.png) no-repeat;
-    max-height: 32px;
-    max-width: 32px;
+    background: url(images/multitouch-128.png) no-repeat;
+    max-height: 128px;
+    max-width: 128px;
     float: left;
     margin-left: 80px;
     margin-right: 20px;
@@ -116,9 +116,9 @@ hr {
 
 .icon-google {
     display: inline-block;
-    background: url(images/google_play.png) no-repeat;
-    max-height: 32px;
-    max-width: 32px;
+    background: url(images/google-play-32.png) no-repeat;
+    height: 32px;
+    width: 32px;
     float: left;
     margin-right: 15px;
     margin-top: -8px;
