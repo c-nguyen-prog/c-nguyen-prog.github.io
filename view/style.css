@@ -83,6 +83,16 @@ hr {
     border-color: #1c8784;
 }
 
+.icon-multitouch {
+    display: inline-block;
+    background: url(images/ic_launcher.png) no-repeat;
+    max-height: 32px;
+    max-width: 32px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: -8px;
+}
 .icon-mail {
     display: inline-block;
     background: url(images/gmail-32.png) no-repeat;
@@ -99,6 +109,16 @@ hr {
     background: url(images/twitter-32.png) no-repeat;
     height: 32px;
     width: 32px;
+    float: left;
+    margin-right: 15px;
+    margin-top: -8px;
+}
+
+.icon-google {
+    display: inline-block;
+    background: url(images/google_play.png) no-repeat;
+    max-height: 32px;
+    max-width: 32px;
     float: left;
     margin-right: 15px;
     margin-top: -8px;
@@ -251,7 +271,7 @@ hr {
 .portfolio .container{
     text-align: center;
 }
-.contact {
+.contact  {
     background: #ffffff;
 }
 
